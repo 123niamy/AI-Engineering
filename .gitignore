@@ -1,0 +1,25 @@
+# Python
+__pycache__/
+*.py[cod]
+*.log
+
+# Data files
+*.db
+*.csv
+*.parquet
+
+# Plots
+*.png
+plots/
+
+# Metadata
+*.json
+
+# Virtual environments
+venv/
+env/
+.venv/
+
+# IDE
+.vscode/
+.idea/
