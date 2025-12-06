@@ -17,8 +17,8 @@ Classical ML algorithms, model training, and evaluation.
 - **Titanic Survival Prediction**: Logistic regression classification model
 
 ### 03 - Generative AI
-Large language models, prompt engineering, and generative applications.
-- *Coming soon*
+Generative models and adversarial training.
+- **GAN Iris Generator**: Generative Adversarial Network for synthetic data generation
 
 ### 04 - Natural Language Processing
 Text processing, sentiment analysis, language understanding.
@@ -33,6 +33,7 @@ Image classification, object detection, and visual recognition.
 - **Languages**: Python 3.14
 - **Data Processing**: pandas, numpy
 - **Machine Learning**: scikit-learn
+- **Deep Learning**: PyTorch
 - **Visualization**: matplotlib, seaborn
 - **Databases**: SQLite3
 - **Development**: Jupyter, VS Code
@@ -49,6 +50,7 @@ AI-Engineering/
     [model files]       # Trained models and experiments
  03-generative-ai/
     exercises/          # GenAI applications
+    GAN_iris_generator.py
  04-natural-language-processing/
     exercises/          # NLP projects
  05-computer-vision/
