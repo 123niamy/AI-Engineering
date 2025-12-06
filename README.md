@@ -1,114 +1,83 @@
-# Data Engineering Learning Projects
+﻿# AI Engineering Portfolio
 
-A collection of data engineering pipelines built while learning ETL concepts, data transformation, and workflow orchestration.
+A comprehensive collection of AI and Data Engineering projects covering the full spectrum of modern AI development.
 
-## 📚 Projects
+##  Course Structure
 
-### 1. Iris Dataset Pipeline (Complete 7-Stage ETL)
-**File:** `Iris data pipeline1.py`
+This repository is organized into 5 core areas of AI Engineering:
 
-A comprehensive data engineering pipeline demonstrating the full ETL workflow:
-- **Stage 1:** Data Ingestion (sklearn → pandas)
-- **Stage 2:** Raw Storage (CSV)
-- **Stage 3:** Preprocessing (missing values, scaling, encoding)
-- **Stage 4:** Data Integration (metadata joins)
-- **Stage 5:** Quality Validation (checks & reports)
-- **Stage 6:** Governance & Security (metadata, masking)
-- **Stage 7:** Data Serving (curated datasets, visualizations)
+### 01 - Data Engineering
+ETL pipelines, data validation, transformation, and storage solutions.
+- **Iris Data Pipeline**: 7-stage comprehensive ETL with governance
+- **Titanic Pipeline**: Data cleaning, feature engineering, and visualization
+- **Simple CSV Ingestion**: Basic database storage patterns
 
-**Output:** Cleaned datasets, quality reports, correlation heatmaps, distribution plots
+### 02 - Machine Learning
+Classical ML algorithms, model training, and evaluation.
+- **Titanic Survival Prediction**: Logistic regression classification model
 
----
+### 03 - Generative AI
+Large language models, prompt engineering, and generative applications.
+- *Coming soon*
 
-### 2. Titanic Survival Analysis Pipeline
-**File:** `Data Engineering2.py`
+### 04 - Natural Language Processing
+Text processing, sentiment analysis, language understanding.
+- *Coming soon*
 
-End-to-end pipeline for the Titanic dataset with error handling and logging:
-- Data ingestion with validation
-- Missing value imputation (median/mode)
-- Feature engineering (FamilySize)
-- Categorical encoding (Sex, Embarked)
-- SQLite storage
-- SQL aggregations (survival rates by class/gender)
-- Visualizations (survival rates, age distribution)
+### 05 - Computer Vision
+Image classification, object detection, and visual recognition.
+- *Coming soon*
 
-**Key Features:** Comprehensive error handling, logging for governance, file I/O safety
+##  Tech Stack
 
----
+- **Languages**: Python 3.14
+- **Data Processing**: pandas, numpy
+- **Machine Learning**: scikit-learn
+- **Visualization**: matplotlib, seaborn
+- **Databases**: SQLite3
+- **Development**: Jupyter, VS Code
 
-### 3. Simple CSV to SQLite Ingestion
-**File:** `Data Engineering3.py`
+##  Repository Structure
 
-Basic data ingestion pipeline:
-- Load CSV with pandas
-- Validate data schema
-- Store in SQLite database
-- Query and extract data
-
-**Purpose:** Foundation for understanding data ingestion patterns
-
----
-
-## 🛠️ Technologies Used
-
-- **Python 3.14**
-- **Pandas** - Data manipulation
-- **SQLite3** - Database storage
-- **Matplotlib & Seaborn** - Data visualization
-- **Scikit-learn** - Dataset loading and preprocessing
-- **Logging** - Pipeline monitoring and governance
-
-## 🚀 How to Run
-
-1. Clone the repository:
-```bash
-git clone https://github.com/yourusername/data-engineering-learning.git
-cd data-engineering-learning
+```
+AI-Engineering/
+ 01-data-engineering/
+    exercises/          # Daily practice exercises
+    [pipeline files]    # Production-ready ETL pipelines
+ 02-machine-learning/
+    exercises/          # ML algorithm practice
+    [model files]       # Trained models and experiments
+ 03-generative-ai/
+    exercises/          # GenAI applications
+ 04-natural-language-processing/
+    exercises/          # NLP projects
+ 05-computer-vision/
+     exercises/          # CV implementations
 ```
 
-2. Install dependencies:
+##  Usage
+
+Each project includes:
+- Clear documentation and comments
+- Error handling and logging
+- Reproducible results with fixed random seeds
+- Visualization outputs
+
+To run any pipeline:
 ```bash
-pip install pandas matplotlib seaborn scikit-learn
+cd [course-folder]
+python [script-name].py
 ```
 
-3. Run a pipeline:
-```bash
-python "Iris data pipeline1.py"
-python "Data Engineering2.py"
-```
+##  Learning Journey
 
-## 📊 Outputs
+This repository tracks my continuous learning in AI Engineering, with daily exercises and projects across multiple disciplines. Each course folder represents hands-on experience with real-world problems and production-ready code patterns.
 
-Each pipeline generates:
-- Cleaned datasets (CSV/Parquet)
-- SQLite databases
-- Visualization plots (PNG)
-- Quality reports (JSON)
-- Execution logs
+##  License
 
-## 📖 Learning Objectives
-
-- ✅ ETL pipeline design
-- ✅ Data validation and quality checks
-- ✅ Error handling best practices
-- ✅ Data governance and logging
-- ✅ Feature engineering
-- ✅ Database operations
-- ✅ Data visualization
-
-## 🎯 Future Enhancements
-
-- [ ] Add data profiling
-- [ ] Implement data lineage tracking
-- [ ] Add unit tests
-- [ ] Cloud storage integration (AWS S3, Azure Blob)
-- [ ] Real-time data ingestion
-- [ ] API-based data sources
-
-## 📝 License
-
-MIT License - Feel free to use for learning purposes
+This project is for educational and portfolio purposes.
 
 ---
 
-**Status:** 🟢 Active Learning | Last Updated: December 2025
+**Author**: 123niamy  
+**Last Updated**: December 2025
